@@ -24,7 +24,7 @@ public class Num {
         System.out.println("the number is positive");
         else if(n<0)
             System.out.println("the number is negative");
-        else
+        else if(n==0)
             System.out.println("the number is zero");
 }
 }
